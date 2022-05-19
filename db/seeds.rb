@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.destroy_all
-u1 = User.create :firstname => "Joe", :lastname => "Bloggs", :email => "joebloggs@gmail.com"
+u1 = User.create :firstname => "Steve", :lastname => "Bloggs", :email => "stevebloggs@gmail.com"
 
 u2 = User.create :firstname => "Jane", :lastname => "Doe", :email => "janedoe@gmail.com"
 
